@@ -1,0 +1,23 @@
+div.wrapper{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a:hover {
+    color: #278fde;
+  }
+li.active{
+    background-color: #278fde;
+}
+#topbar{
+    background-color: #278fde;
+    height: 50px;
+}
+@media screen and (max-width: 720px){
+div.top-bar{
+    display: none;
+}
+footer{
+    background-color: #278fde;
+}
+@media screen and (max-width: 600px){
+    footer{
